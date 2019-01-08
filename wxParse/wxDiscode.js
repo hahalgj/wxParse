@@ -1,5 +1,6 @@
 // HTML 支持的数学符号
 function strNumDiscode(str){
+    str = str.replace(/o:p/g, "div"); //add 2019.1.8
     str = str.replace(/&forall;/g, '∀');
     str = str.replace(/&part;/g, '∂');
     str = str.replace(/&exists;/g, '∃');
